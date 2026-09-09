@@ -10,7 +10,7 @@ const CONFIG = {
   // Número de WhatsApp CON código de país y SIN espacios, + ni guiones.
   // México: 52 + 10 dígitos  ->  "525512345678"
   // (Si el número es de México y no llegan los mensajes, prueba con 521...)
-  whatsapp: "525527314422",
+  whatsapp: "525569009299",
 
   titulo: "Cosas Disponibles",
   subtitulo: "Artículos usados en buen estado. Toca el botón verde y pregúntame por WhatsApp.",
