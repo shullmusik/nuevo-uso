@@ -114,6 +114,24 @@ py fetch_drive_data.py --drive-folder ID_DE_LA_CARPETA --api-key TU_API_KEY
 
 ---
 
+## 3b. Cómo quitar un producto del catálogo
+
+Tienes dos opciones:
+
+- **Si ya se vendió:** no lo borres. En `products.json` cambia su `"estado"`
+  a `"vendido"`. La tarjeta se queda pero en gris, con el precio tachado y
+  el botón de WhatsApp desactivado.
+- **Si ya no lo quieres mostrar:** borra su bloque `{ ... }` de
+  `products.json` **y** copia su `id` en el archivo `ocultos.txt`.
+
+Ese segundo paso importa: sin él, la próxima vez que corras
+`fetch_drive_data.py` el producto volvería a aparecer, porque su foto sigue
+en la carpeta de Google Drive. Todo lo que esté en `ocultos.txt` se salta.
+Para volver a ponerlo a la venta, borra su línea de ahí y vuelve a correr
+el script.
+
+---
+
 ## 4. Publicar gratis en GitHub Pages
 
 1. Crea una cuenta en <https://github.com> (si no tienes).
@@ -168,6 +186,7 @@ Y abre <http://localhost:8000> en tu navegador.
 | `products.json` | La lista de productos. **Aquí van nombres, precios y estados.** |
 | `fetch_drive_data.py` | Genera `products.json` y las imágenes a partir de la carpeta de Drive. |
 | `optimizar_imagenes.ps1` | Comprime las fotos en Windows si no tienes Pillow. |
+| `ocultos.txt` | Ids de productos quitados, para que no reaparezcan al actualizar. |
 | `imagenes/` | Las fotos ya listas, ordenadas por categoría. |
 | `.nojekyll` | Le dice a GitHub Pages que publique los archivos tal cual. |
 

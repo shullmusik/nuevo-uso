@@ -23,7 +23,7 @@
     "id": "p-238f27a3a9",
     "nombre": "Vestido largo azul rey Liz Minnelli, talla 36",
     "categoria": "Calzado y Textiles",
-    "precio": 650,
+    "precio": 350,
     "descripcion": "Vestido largo azul rey de la marca Liz Minnelli, talla 36. Escote en V con aplicación de encaje blanco y cintura drapeada que estiliza mucho. Ideal para fiesta o boda; usado y en excelente estado.",
     "imagen": "imagenes/calzado-y-textiles/p-238f27a3a9.jpg",
     "miniatura": "imagenes/calzado-y-textiles/p-238f27a3a9-mini.jpg",
@@ -147,36 +147,6 @@
     "descripcion": "Dos pares de tenis DC originales de caballero del número 7, en tela blanca con logo bordado del mismo tono. Ligeros y frescos, buenos para diario. Precio por par; usados y en buen estado.",
     "imagen": "imagenes/calzado-y-textiles/p-8f50be9512.jpg",
     "miniatura": "imagenes/calzado-y-textiles/p-8f50be9512-mini.jpg",
-    "estado": "disponible"
-  },
-  {
-    "id": "p-acb0688f77",
-    "nombre": "Botas de senderismo azul marino, del 7",
-    "categoria": "Calzado y Textiles",
-    "precio": 100,
-    "descripcion": "Botas de caballero estilo senderismo del número 7, en azul marino con refuerzos grises y forro acolchado en el tobillo. La suela de hule tiene buen agarre para terreno disparejo. Usadas y en buen estado.",
-    "imagen": "imagenes/calzado-y-textiles/p-acb0688f77.jpg",
-    "miniatura": "imagenes/calzado-y-textiles/p-acb0688f77-mini.jpg",
-    "estado": "disponible"
-  },
-  {
-    "id": "p-2c63e55554",
-    "nombre": "Botas de senderismo negras, del 7",
-    "categoria": "Calzado y Textiles",
-    "precio": 100,
-    "descripcion": "Botas de caballero estilo senderismo del número 7, en negro con paneles grises y agujetas cafés. Suela gruesa con dibujo profundo, buenas para lluvia o campo. Usadas y en buen estado.",
-    "imagen": "imagenes/calzado-y-textiles/p-2c63e55554.jpg",
-    "miniatura": "imagenes/calzado-y-textiles/p-2c63e55554-mini.jpg",
-    "estado": "disponible"
-  },
-  {
-    "id": "p-d3fd346581",
-    "nombre": "Zapatillas Dorothy Gaynor beige con brillos, del 24½",
-    "categoria": "Calzado y Textiles",
-    "precio": 350,
-    "descripcion": "Zapatillas de dama marca Dorothy Gaynor del número 24½, en beige con tiras de pedrería y correa al tobillo. Tacón cuadrado que las hace muy estables para fiesta. Usadas y en excelente estado.",
-    "imagen": "imagenes/calzado-y-textiles/p-d3fd346581.jpg",
-    "miniatura": "imagenes/calzado-y-textiles/p-d3fd346581-mini.jpg",
     "estado": "disponible"
   },
   {
@@ -313,8 +283,8 @@
     "id": "p-d5ce68f80c",
     "nombre": "3 pares de calcetas NFL Patriots nuevas, talla chica",
     "categoria": "Calzado y Textiles",
-    "precio": 220,
-    "descripcion": "Tres pares de calcetas oficiales de la NFL con el logo de los New England Patriots, en azul marino con rojo. Talla chica (22-24 mx, US 4-6), de microfibra suave y transpirable. Nuevas, todavía con etiqueta.",
+    "precio": 100,
+    "descripcion": "Tres pares de calcetas oficiales de la NFL con el logo de los New England Patriots, en azul marino con rojo. Talla chica (22-24 mx, US 4-6, EU 35-38) y 15 cm de talón a punta, en microfibra suave y transpirable. Nuevas, todavía con etiqueta.",
     "imagen": "imagenes/calzado-y-textiles/p-d5ce68f80c.jpg",
     "miniatura": "imagenes/calzado-y-textiles/p-d5ce68f80c-mini.jpg",
     "estado": "disponible"
@@ -413,8 +383,8 @@
     "id": "p-e379aaf1b2",
     "nombre": "Exprimidor de cítricos Oster",
     "categoria": "Cocina y Hogar",
-    "precio": 180,
-    "descripcion": "Exprimidor eléctrico de cítricos marca Oster, en blanco, con vaso recolector graduado y tapa. Muy práctico para el jugo de naranja de la mañana. Usado y funcionando bien.",
+    "precio": 90,
+    "descripcion": "Exprimidor eléctrico de cítricos marca Oster, en blanco, con vaso recolector graduado, tapa y pico vertedor. Muy práctico para el jugo de naranja de la mañana. Usado y funcionando bien.",
     "imagen": "imagenes/cocina-y-hogar/p-e379aaf1b2.jpg",
     "miniatura": "imagenes/cocina-y-hogar/p-e379aaf1b2-mini.jpg",
     "estado": "disponible"
@@ -904,7 +874,7 @@
     "nombre": "Cabeza de Barbie para peinar y maquillar, con perrito",
     "categoria": "Juguetes",
     "precio": 200,
-    "descripcion": "Busto de Barbie para peinar y maquillar, con cabello largo rubio, pasadores de mariposa y su perrito de juguete. Ideal para jugar a la estética. Usada y en buen estado.",
+    "descripcion": "Busto de Barbie para peinar y maquillar, de 23 cm de alto y 21 cm de ancho, con cabello largo rubio y pasadores de mariposa. Incluye su perrito de 11 cm. Ideal para jugar a la estética. Usada y en buen estado.",
     "imagen": "imagenes/juguetes/p-f75dc4fd5d.jpg",
     "miniatura": "imagenes/juguetes/p-f75dc4fd5d-mini.jpg",
     "estado": "disponible"
@@ -1390,16 +1360,6 @@
     "estado": "disponible"
   },
   {
-    "id": "p-1f90207ee4",
-    "nombre": "Escritorio infantil con silla, colores primarios",
-    "categoria": "Muebles",
-    "precio": 1000,
-    "descripcion": "Escritorio infantil de tubo metálico azul y rojo con dos cubiertas blancas: una para escribir y otra arriba para libros. Incluye la silla roja con asiento azul acojinado. Mide 98 cm de ancho, 59 cm de fondo y 108 cm de alto; estructura firme, sin oxidación.",
-    "imagen": "imagenes/muebles/p-1f90207ee4.jpg",
-    "miniatura": "imagenes/muebles/p-1f90207ee4-mini.jpg",
-    "estado": "disponible"
-  },
-  {
     "id": "p-fd8512a1ef",
     "nombre": "Mesa de centro de madera estilo provenzal",
     "categoria": "Muebles",
@@ -1521,10 +1481,10 @@
   },
   {
     "id": "p-3500025d07",
-    "nombre": "Tenaza rizadora Taurus de cerámica, 18/19 mm",
+    "nombre": "Tenaza rizadora Taurus de cerámica, 19 mm",
     "categoria": "Varios",
-    "precio": 180,
-    "descripcion": "Tenaza rizadora marca Taurus con barril de cerámica de 18/19 mm, en color vino. Viene con su caja original. Usada y funcionando bien.",
+    "precio": 90,
+    "descripcion": "Tenaza rizadora marca Taurus con barril de cerámica de 19 mm, en color vino. Viene con su caja original y el cable completo, sin peladuras. Usada y funcionando bien.",
     "imagen": "imagenes/varios/p-3500025d07.jpg",
     "miniatura": "imagenes/varios/p-3500025d07-mini.jpg",
     "estado": "disponible"
@@ -1673,8 +1633,8 @@
     "id": "p-5216a4e9ab",
     "nombre": "Maleta rígida rosa con 4 ruedas giratorias",
     "categoria": "Varios",
-    "precio": 550,
-    "descripcion": "Maleta rígida color rosa palo, de 64 cm de alto, 43 de ancho y 28 de fondo, con cuatro ruedas giratorias 360° y asa retráctil. Tamaño de cabina grande. Usada y en buen estado.",
+    "precio": 380,
+    "descripcion": "Maleta rígida color rosa palo con cuatro ruedas giratorias de 360° y asa retráctil. Mide 64 cm de alto, 43 de ancho y 28 de fondo: tamaño de cabina grande. Usada y en buen estado, cierra bien y rueda parejo.",
     "imagen": "imagenes/varios/p-5216a4e9ab.jpg",
     "miniatura": "imagenes/varios/p-5216a4e9ab-mini.jpg",
     "estado": "disponible"

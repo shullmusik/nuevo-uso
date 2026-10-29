@@ -71,6 +71,7 @@ CALIDAD_JPEG = 82
 
 SALIDA_IMAGENES = "imagenes"
 SALIDA_JSON = "products.json"
+SALIDA_OCULTOS = "ocultos.txt"
 
 
 # --------------------------------------------------------------------------
@@ -298,12 +299,33 @@ def cargar_previos(ruta):
     return {p.get("id"): p for p in lista if isinstance(p, dict) and p.get("id")}
 
 
+def cargar_ocultos(salida_dir):
+    """
+    Lee ocultos.txt: una lista de ids que NO deben volver al catalogo.
+    Sirve para que un producto que ya quitaste a mano no reaparezca
+    la proxima vez que corras este script. Las lineas que empiezan
+    con # son comentarios.
+    """
+    ruta = os.path.join(salida_dir, SALIDA_OCULTOS)
+    if not os.path.exists(ruta):
+        return set()
+    ocultos = set()
+    with open(ruta, "r", encoding="utf-8") as f:
+        for linea in f:
+            linea = linea.split("#")[0].strip()
+            if linea:
+                ocultos.add(linea)
+    return ocultos
+
+
 def construir(encontrados, salida_dir, Image, ImageOps):
     previos = cargar_previos(os.path.join(salida_dir, SALIDA_JSON))
+    ocultos = cargar_ocultos(salida_dir)
     vistos = set()
     productos = []
     consecutivos = {}
     repetidos = 0
+    omitidos = 0
 
     encontrados.sort(key=lambda t: (t[0], t[1]))
 
@@ -315,6 +337,9 @@ def construir(encontrados, salida_dir, Image, ImageOps):
         vistos.add(firma)
 
         pid = "p-" + firma[:10]
+        if pid in ocultos:
+            omitidos += 1
+            continue
         consecutivos[categoria] = consecutivos.get(categoria, 0) + 1
 
         carpeta_cat = slug(categoria)
@@ -356,7 +381,7 @@ def construir(encontrados, salida_dir, Image, ImageOps):
 
         productos.append(nuevo)
 
-    return productos, repetidos
+    return productos, repetidos, omitidos
 
 
 def main():
@@ -391,7 +416,7 @@ def main():
         return 1
 
     print("Se encontraron {} imágenes. Procesando...".format(len(encontrados)))
-    productos, repetidos = construir(encontrados, salida_dir, Image, ImageOps)
+    productos, repetidos, omitidos = construir(encontrados, salida_dir, Image, ImageOps)
 
     ruta_json = os.path.join(salida_dir, SALIDA_JSON)
     with open(ruta_json, "w", encoding="utf-8") as f:
@@ -403,6 +428,8 @@ def main():
     print("\nListo.")
     print("  Productos en el catálogo : {}".format(len(productos)))
     print("  Imágenes repetidas omitidas: {}".format(repetidos))
+    if omitidos:
+        print("  Productos en ocultos.txt no agregados: {}".format(omitidos))
     print("  Archivo generado          : {}".format(ruta_json))
     if por_revisar:
         print("\n  OJO: {} productos tienen nombre provisional (\"revisar\": true).".format(por_revisar))

@@ -1,0 +1,12 @@
+# Productos quitados del catálogo a mano.
+#
+# Los ids de esta lista NO vuelven a aparecer aunque sus fotos sigan
+# en la carpeta de Google Drive y vuelvas a correr fetch_drive_data.py.
+#
+# Para volver a poner uno a la venta: borra su línea y corre el script.
+# Para quitar otro: copia su "id" de products.json y pégalo aquí abajo.
+
+p-2c63e55554   # Botas de senderismo negras, del 7
+p-acb0688f77   # Botas de senderismo azul marino, del 7
+p-d3fd346581   # Zapatillas Dorothy Gaynor beige con brillos, del 24½
+p-1f90207ee4   # Escritorio infantil con silla, colores primarios
