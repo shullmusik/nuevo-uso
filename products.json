@@ -1848,5 +1848,45 @@
     "imagen": "imagenes/varios/p-e4af7c5d00.jpg",
     "miniatura": "imagenes/varios/p-e4af7c5d00-mini.jpg",
     "estado": "disponible"
+  },
+  {
+    "id": "p-56553467d8",
+    "nombre": "Recámara completa: tocador, cabecera king y 2 burós",
+    "categoria": "Muebles",
+    "precio": 7400,
+    "descripcion": "Recámara completa en madera maciza color caoba, estilo clásico. Incluye tocador con espejo (120 cm de ancho, 185 cm de alto total), cabecera matrimonial/king size de 229 cm de ancho por 148 de alto, y dos burós de 58 × 47 × 57 cm. En buen estado general, con detalles normales de uso.",
+    "imagen": "imagenes/muebles/p-56553467d8.jpg",
+    "miniatura": "imagenes/muebles/p-56553467d8-mini.jpg",
+    "estado": "disponible"
+  },
+  {
+    "id": "p-242af330d7",
+    "nombre": "Dispensador automático de jabón líquido",
+    "categoria": "Cocina y Hogar",
+    "precio": 100,
+    "descripcion": "Dispensador de jabón con sensor de movimiento: acercas la mano y sale solo, sin tocar nada. Sirve para jabón líquido o gel, y queda bien en casa, oficina o negocio. Funciona con 4 pilas doble A (no incluidas); listo para usar.",
+    "imagen": "imagenes/cocina-y-hogar/p-242af330d7.jpg",
+    "miniatura": "imagenes/cocina-y-hogar/p-242af330d7-mini.jpg",
+    "estado": "disponible"
+  },
+  {
+    "id": "p-184f335b28",
+    "nombre": "Rizadores para el cabello sin calor, marca Curling",
+    "categoria": "Varios",
+    "precio": 140,
+    "descripcion": "Juego de rizadores de tela marca Curling, en verde y azul turquesa, para hacer rizos sin usar calor y sin maltratar el cabello. Incluye los accesorios y el gancho para pasar el mechón. Vienen en su bolsa con cierre; en muy buen estado.",
+    "imagen": "imagenes/varios/p-184f335b28.jpg",
+    "miniatura": "imagenes/varios/p-184f335b28-mini.jpg",
+    "estado": "disponible"
+  },
+  {
+    "id": "p-b3b5ef44d1",
+    "nombre": "Pista de carros Hot Wheels con loopings y curvas",
+    "categoria": "Juguetes",
+    "precio": 90,
+    "descripcion": "Pista Hot Wheels completa con todas sus piezas: loopings, curvas y la estación central, más los 2 carritos originales. Ojo: la parte eléctrica de pilas ya no funciona, por eso el precio. Sigue sirviendo para jugar soltando los carros desde arriba, o para quien la quiera reparar.",
+    "imagen": "imagenes/juguetes/p-b3b5ef44d1.jpg",
+    "miniatura": "imagenes/juguetes/p-b3b5ef44d1-mini.jpg",
+    "estado": "disponible"
   }
 ]
